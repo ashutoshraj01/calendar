@@ -1,0 +1,12 @@
+.homeWrapper{
+  margin: 0 auto;
+  width: 300px;
+  box-shadow: 3px 0px 5px 6px #d9d1d1;
+  padding: 8px 15px;
+}
+.App{
+  padding: 25px;
+}
+
+
+

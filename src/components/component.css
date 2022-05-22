@@ -1,0 +1,78 @@
+  .hourComponent {
+    height: 50px;
+    width: 100%;
+    position: relative;
+    box-sizing: border-box;
+  }
+  .hourComponent::after {
+    content: " ";
+    display: block;
+    position: absolute;
+    height: 1px;
+    border-bottom: 1px solid #beb6b6;
+    width: 81%;
+    left: 55px;
+    top: 10px;
+  }
+
+  .modalWrapper{
+    width: 200px;
+    height: 400px;
+    box-shadow: 3px 0px 5px 6px #d9d1d1;
+    background: white;
+    z-index: 99999;
+    position: absolute;
+    left: 100px;
+    border-radius: 3px;
+    padding: 20px 50px;
+  }
+  input{
+    width: 100%;
+    border: none;
+    outline: none;
+    border-bottom: 1px solid rgb(183, 178, 178);
+    font-size: 22px;;
+  }
+  span{
+    padding-right: 10px;
+    color: blue;
+  }
+
+  button{
+    width: 150px;
+    border: none;
+    color: white;
+    background: blue;
+    height: 40px;
+    cursor: pointer;
+  }
+  .close{
+    display: flex;
+    justify-content: flex-end;
+    font-size: 20px;
+    font-weight: bold;
+  }
+  .closeSpan{
+    color: rgb(149, 147, 147);
+    padding: 8px;
+    cursor: pointer;
+  }
+  .events{
+    position: relative;
+    display: inline-block;
+    width: 75px;
+    background: blue;
+    height: 30px;
+    border-radius: 5px;
+    top: 12px;
+    left: 13px;
+    color: white;
+    padding: 3px;
+    font-size: 13px;
+    padding-top: 12px;
+    margin-right: 5px;
+  }
+  .time{
+    display: inline-block;
+    width: 16%;
+  }
